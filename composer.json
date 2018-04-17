@@ -1,0 +1,11 @@
+{
+    "name": "aikibo/stok-app", 
+    "type": "project",
+    "authors": [
+        {
+            "name": "tamami",
+            "email": "tamami@gmail.com",
+            "role": "programmer"
+        }
+    ]
+}

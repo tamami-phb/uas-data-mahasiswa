@@ -6,6 +6,12 @@
             "name": "tamami",
             "email": "tamami@gmail.com",
             "role": "programmer"
+        }, {
+            "name": "ami"
         }
-    ]
+    ],
+    "require": {
+        "phpunit/phpunit": "^6.5"
+    },
+    "version": "0.5"
 }

@@ -1,6 +1,6 @@
 # Langkah penggunaan travis-ci
 
-1. Akun Github, travis-ci
+1. Akun Github, travis-ci -> https://travis-ci.org
 2. Download composer, running, hasil composer.phar
 3. file composer.json
 4. running `php composer.phar install`

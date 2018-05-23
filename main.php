@@ -1,6 +1,6 @@
 <h2>Aplikasi Stok Barang</h2>
 <hr>
-<a style="font-size=20px" href="input.php">Tambah Data</a>
+<a style="font-size: 20px; font-color: red" href="input.php">Tambah Data</a>
 <table border="1">
     <tr>
         <th>KODE</th>

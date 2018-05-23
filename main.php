@@ -1,6 +1,12 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</head>
+<body>
 <h2>Aplikasi Stok Barang</h2>
 <hr>
-<a style="font-size: 20px; font-color: red" href="input.php">Tambah Data</a>
+<a class="btn btn-success" href="input.php">Tambah Data</a>
 <table border="1">
     <tr>
         <th>KODE</th>
@@ -45,3 +51,4 @@ if($data->num_rows <= 0) {
 }
     ?>
 </table>
+</body>

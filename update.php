@@ -21,7 +21,7 @@ $query = "update stok_barang " .
 
 if($koneksi->query($query) === true) {
     echo "<br> Data " . $_POST["namaBarang"] . " berhasil diubah." .
-            ' <a href="main.php">Lihat Data</a>';
+            ' <a href="index.php">Lihat Data</a>';
 } else {
     echo "<br>Data GAGAL disimpan";
 }

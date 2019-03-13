@@ -15,7 +15,7 @@ $qry = "delete from stok_barang where kode=" . $_GET["kode"];
 if($koneksi->query($qry) === true) {
     echo "<br> Data kode " . $_GET["kode"] . 
         " berhasil dihapus." .
-        ' <a href="main.php">Lihat Data</a>';
+        ' <a href="index.php">Lihat Data</a>';
 } else {
     echo "<br>Data GAGAL dihapus";
 }
